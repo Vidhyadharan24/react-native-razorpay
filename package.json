@@ -1,59 +1,26 @@
 {
-  "_args": [
-    [
-      "git+https://github.com/Vidhyadharan24/react-native-razorpay.git",
-      "/Users/vid/Developer/whitelabel-react-native"
-    ]
-  ],
-  "_from": "git+https://github.com/Vidhyadharan24/react-native-razorpay.git",
-  "_id": "react-native-razorpay@git+https://github.com/Vidhyadharan24/react-native-razorpay.git#5de36769089bb183dce9a48c4aade799091a9971",
-  "_inBundle": false,
-  "_integrity": "",
-  "_location": "/react-native-razorpay",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "git",
-    "raw": "git+https://github.com/Vidhyadharan24/react-native-razorpay.git",
-    "rawSpec": "git+https://github.com/Vidhyadharan24/react-native-razorpay.git",
-    "saveSpec": "git+https://github.com/Vidhyadharan24/react-native-razorpay.git",
-    "fetchSpec": "https://github.com/Vidhyadharan24/react-native-razorpay.git",
-    "gitCommittish": null
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "git+https://github.com/Vidhyadharan24/react-native-razorpay.git#5de36769089bb183dce9a48c4aade799091a9971",
-  "_spec": "git+https://github.com/Vidhyadharan24/react-native-razorpay.git",
-  "_where": "/Users/vid/Developer/whitelabel-react-native",
-  "author": {
-    "name": "Razorpay Developers",
-    "email": "developers@razorpay.com",
-    "url": "https://razorpay.com/"
-  },
-  "bugs": {
-    "url": "https://github.com/vidhyadharan24/react-native-razorpay/issues"
-  },
+  "name": "react-native-razorpay",
+  "version": "2.2.0",
   "description": "React Native wrapper for Razorpay",
-  "homepage": "https://github.com/vidhyadharan24/react-native-razorpay#readme",
+  "main": "RazorpayCheckout.js",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/razorpay/react-native-razorpay.git"
+  },
+  "peerDependencies": {
+    "react": "^16.5.0",
+    "react-native": "^0.57.1"
+  },
   "keywords": [
     "react-native",
     "razorpay",
     "payments"
   ],
+  "author": "Razorpay Developers <developers@razorpay.com> (https://razorpay.com/)",
   "license": "MIT",
-  "main": "RazorpayCheckout.js",
-  "name": "react-native-razorpay",
-  "peerDependencies": {
-    "react": "^16.5.0",
-    "react-native": "^0.57.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vidhyadharan24/react-native-razorpay.git"
-  },
-  "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "2.2.0"
+  "homepage": "https://github.com/razorpay/react-native-razorpay#readme"
 }
